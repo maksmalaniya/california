@@ -1,47 +1,46 @@
 .header {
-
-    // .header__content
+    height: 80px;
+    width: 100%;
+    background: $white-color;
 
     &__content {
+        display: flex;
+        justify-content: space-between;
     }
-
-    // .header__logo
-
-    &__logo {
-    }
-
-    // .header__logo-icon
 
     &__logo-icon {
+        width: 170px;
+        height: 21px;
     }
-
-    // .header__links
 
     &__links {
+        
     }
-
-    // .header__links-list
 
     &__links-list {
+        display: flex;
+        flex-direction: row;
+        gap: 33px;
     }
 
-    // .header__links-link
+    &__links-item {
+        font-family: 'Inter';
+    }
 
     &__links-link {
+        text-decoration: none;
+        display: inline-block;
     }
-
-    // .header__icons
 
     &__icons {
+        display: flex;
+        flex-direction: row;
+        gap: 22px;
     }
-
-    // .header__icon
-
-    &__icon {
-    }
-
-    // .header__icons-icon
 
     &__icons-icon {
+        fill: #fff;
+        width: 24px;
+        height: 24px;
     }
 }
