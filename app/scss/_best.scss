@@ -1,0 +1,65 @@
+.best {
+
+    &__title {
+        margin-top: 47px;
+        font-size: 42px;
+        font-family: 'ReadexPro';
+        text-align: center;
+    }
+
+    &__subtitle {
+        margin-top: 9px;
+        font-size: 13px;
+        font-family: 'ReadexPro';
+        text-align: center;
+    }
+
+    &__cards {
+        margin-top: 56px;
+        display: flex;
+        gap: 28px;
+    }
+
+    &__card {
+        flex-wrap: wrap;
+        background: $best-article-bg;
+        border-radius: 16px;
+        flex: 1 1 30%;
+    }
+
+    &__card-textcontent {
+        margin-top: 41px;
+        text-align: center;
+    }
+
+    &__card-subtitle {
+        font-family: 'ReadexPro';
+        font-size: 13px;
+    }
+
+    &__card-title {
+        font-family: 'ReadexPro';
+        font-size: 28px;
+    }
+
+    &__button {
+        font-size: 18px;
+        font-family: 'Inter';
+        display: inline-block;
+        padding: 14px 63px;
+        border: 1px solid black;
+        border-radius: 200px;
+        text-decoration: none;
+        margin: 30px auto;
+    }
+
+    &__card-image-content {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__card-image {
+        object-fit: cover;
+        text-align: center;
+    }
+}
