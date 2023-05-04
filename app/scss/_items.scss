@@ -1,0 +1,57 @@
+.items {
+
+    &__title {
+        font-size: 42px;
+        font-family: 'ReadexPro';
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-size: 13px;
+        font-family: 'ReadexPro';
+        text-align: center;
+        margin-top: 9px;
+    }
+
+    &__cards {
+        display: flex;
+        gap: 56px;
+        margin-top: 31px;
+
+    }
+
+    &__card {
+        flex-wrap: wrap;
+        width: 303px;
+    }
+
+    &__card-image-content {
+        width: 247px;
+        height: 214px;
+        margin: 28px;
+    }
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__card-title {
+        font-size: 22px;
+        font-family: 'ReadexPro';
+        margin-top: 9px;
+    }
+
+    &__card-subtitle {
+        font-size: 14px;
+        font-family: 'Inter';
+        margin-top: 9px;
+    }
+
+    &__card-price {
+        font-size: 18px;
+        font-family: 'Inter';
+        margin-top: 25px;
+    }
+}
