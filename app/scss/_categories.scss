@@ -1,0 +1,112 @@
+.categories {
+
+    &__title {
+        font-size: 42px;
+        font-family: 'ReadexPro';
+        margin-top: 75px;
+        text-align: center;
+    }
+
+    &__subtitle-box {
+        max-width: 628px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__subtitle {
+        margin-top: 9px;
+        font-size: 14px;
+        font-family: 'ReadexPro';
+        text-align: center;
+    }
+
+    &__cards {
+        margin-top: 55px;
+        display: flex;
+        gap: 16px;
+    }
+
+    &__card-pc {
+        background: $white-color;
+        box-shadow: 0px 0px 20px grey;
+    }
+
+    &__card-pc-image-content {
+        width: 500px;
+        height: 377px;
+        margin: 0 97px 0px 42px;
+    }
+
+    &__card-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__card-textcontent-pc {
+        margin: 0 42px 0 auto;
+        height: 92px;
+        max-width: 192px;
+    }
+
+    &__card-textcontent-title {
+        font-size: 15px;
+        font-family: 'Inter';
+    }
+
+    &__card-textcontent-subtitle {
+        font-size: 32px;
+        font-family: 'ReadexPro';
+    }
+
+    &__card-watch {
+        background: $white-color;
+        box-shadow: 0px 0px 20px grey;
+        margin-top: 72px;
+        display: flex;
+        gap: 46px;
+    }
+
+    &__card-watch-image-content {
+        height: 270px;
+        width: 381px;
+        margin-left: 42px;
+    }
+
+    &__card-textcontent-watch {
+        margin: auto 42px auto 0;
+        text-align: right;
+    }
+
+    &__cards-right {
+        display: flex;
+        gap: 16px;
+        max-height: 792px;
+    }
+
+    &__card-phone {
+        background: $white-color;
+        box-shadow: 0px 0px 20px grey;
+        padding: 144px 0 144px 16px;
+    }
+
+    &__card-phone-image-content {
+        margin-bottom: 41px;
+    }
+
+    &__card-textcontent-phone {
+        text-align: center;
+    }
+
+    &__card-tablet {
+        background: $white-color;
+        box-shadow: 0px 0px 20px grey;
+        padding: 114px 0;
+    }
+
+    &__card-textcontent-tablet {
+        text-align: center;
+        max-width: 233px;
+        margin: 0 auto;
+    }
+}
