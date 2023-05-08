@@ -1,0 +1,56 @@
+.ideas {
+
+    &__title {
+        text-align: center;
+        font-size: 42px;
+        font-family: 'ReadexPro';
+        margin-top: -65px;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-size: 13px;
+        font-family: 'ReadexPro';
+        margin-top: 9px;
+    }
+
+    &__card {
+        margin-top: 56px;
+        display: flex;
+        gap: 35px;
+        flex: 1 1 50%;
+    }
+
+    &__card-image-content {
+        flex-wrap: wrap;
+    }
+
+    &__card-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__card-paragraph {
+        font-size: 24px;
+        font-family: 'Inter';
+        margin-bottom: 28px;
+    }
+
+    &__card-bottom {
+        margin-top: 73px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__card-bottom-text {
+        font-size: 24px;
+        font-family: 'Inter';
+    }
+
+    &__card-bottom-image {
+        fill: none;
+        width: 30px;
+        height: 28px;
+    }
+}
