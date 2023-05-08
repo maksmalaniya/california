@@ -1,0 +1,59 @@
+.form {
+
+    // .form__title
+
+    &__title {
+        margin-top: 5px;
+        font-size: 42px;
+        font-family: 'ReadexPro';
+        text-align: center;
+    }
+
+    // .form__form
+
+    &__form {
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    // .form__form-search
+
+    &__form-search {
+        width: 650px;
+        height: 60px;
+        border-radius: 100px;
+        padding-left: 67px;
+        position: relative;
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: '';
+            width: 30px;
+            height: 29px;
+            //background-image: url(../images/form-search.svg);
+            //background-size: 100%;
+            background: #000;
+        }
+    }
+
+    // .form__items
+
+    &__items {
+    }
+
+    // .form__links
+
+    &__links {
+    }
+
+    // .form__links-item
+
+    &__links-item {
+    }
+
+    // .form__links-item-link
+
+    &__links-item-link {
+    }
+}
