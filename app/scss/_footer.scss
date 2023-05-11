@@ -34,3 +34,41 @@
         margin-top: 19px;
     }
 }
+
+.footer {
+
+    // .footer__links
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .footer__links-item
+
+    &__links-item {
+        display: flex;
+    }
+
+    // .footer__links-item-p
+
+    &__links-item-p {
+        font-family: 'ReadexPro';
+        font-size: 18px;
+    }
+
+    // .footer__links-item-a
+
+    &__links-item-a {
+        text-decoration: none;
+        font-family: 'Inter';
+        font-size: 18px;
+        color: black;
+    }
+
+    &__links-image {
+        fill: none;
+        width: 21px;
+        height: 18px;
+    }
+}
