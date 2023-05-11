@@ -1,0 +1,86 @@
+.signup {
+
+    // .signup__card
+
+    &__card {
+        margin: 68px auto 0;
+        width: 935px;
+        background: $bg-green;
+        padding-top: 47px;
+        padding-bottom: 43px;
+        border-radius: 16px;
+    }
+
+    // .signup__title
+
+    &__title {
+        font-family: 'ReadexPro';
+        font-size: 42px;
+        text-align: center;
+    }
+
+    // .signup__subtitle
+
+    &__subtitle {
+        margin-top: 9px;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 16px;
+    }
+
+    // .signup__image-content
+
+    &__image-content {
+        margin: 14px auto;
+        width: 233px;
+        height: 200px;
+    }
+
+    // .signup__image
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    // .signup__form
+
+    &__form {
+    }
+
+    // .signup__form-container
+
+    &__form-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    // .signup__form-email
+
+    &__form-email {
+        width: 285px;
+        height: 50px;
+        border-radius: 54px 0 0 54px;
+        border: none;
+        border: 1px solid black;
+        padding-left: 32px;
+        background: $bg-green;
+        &::placeholder {
+            font-family: 'Inter';
+            font-size: 14px;
+            color: black;
+        }
+    }
+
+    // .signup__form-btn
+
+    &__form-btn {
+        width: 115px;
+        height: 50px;
+        border-radius: 0 54px 54px 0;
+        background: black;
+        color: $white-color;
+        border: none;
+    }
+}
