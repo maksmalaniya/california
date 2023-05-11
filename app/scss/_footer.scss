@@ -1,0 +1,36 @@
+.footer {
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 78px;
+        border-bottom: 1px solid $bg-green;
+    }
+
+    &__main {
+        max-width: 304px;
+    }
+
+    &__p {
+        margin-top: 19px;
+        font-family: 'Inter';
+        font-size: 16px;
+    }
+
+    &__other-item {
+        margin-top: 19px;
+    }
+
+    &__other-item-header {
+        font-family: 'ReadexPro';
+        font-size: 22px;
+    }
+
+    &__other-link {
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Inter';
+        margin-top: 19px;
+    }
+}
